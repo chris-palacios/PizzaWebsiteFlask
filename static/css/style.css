@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fanwood Text', serif;
+    color:#fff
+
+}
+.header{
+    min-height: 160vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.034), rgba(0, 0, 0, 0.8)),url(../media/PizzaBackground.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: end;
+}
+.nav-links{
+    flex: 1;
+    text-align: end;
+}
+
+.nav-links ul {
+    list-style:none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.text-box h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+} 
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.logo h1{
+    text-indent: -9999999px;
+    background: url('pizzaSliceLogo.jpg');
+    width: 50px;
+    height: 50px;
+}
+
+.row {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  
+}
+
+.row ul{
+    list-style:none;
+    display: inline-block;
+    padding: 30px 75px;
+    position: relative;
+}
+
+.row ul a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    background-color:rgb(240, 80, 68);
+    border-radius: 15%;
+    padding: 2px 2px;
+} 
+
+.company-info {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: center;
+}
+
+.company-info img{
+    border: 10px outset rgb(206, 116, 42);
+
+}
+
+
+.button {
+    display: inline-block;
+    text-align: center;
+    color:#fff;
+    text-decoration: none;
+    font-size: 25px;
+    background-color:rgb(240, 80, 68);
+    border-radius: 15%;
+    padding:10px 20px;
+
+}
+.button:hover {
+    background-color: gray;
+}

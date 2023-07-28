@@ -3,7 +3,7 @@
     <head> 
         <meta name = "viewport" content = "width = deice-width, initial-scale = 1.0">
 	<link rel= "shortcut icon" type="x-icon" href="pizzaSliceLogo.jpg">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap" rel="stylesheet">
         <title>Menu</title>
@@ -17,10 +17,10 @@
 		</div>
 
                 <div class="nav-links">
-                <ul><a href="PizzaFactory.html">Home</a></ul>
-                <ul><a href="Menu.html">Menu</a></ul>
-                <ul><a href="AboutUs.html">About Us</a></ul>
-                <ul><a href="ContactUs.html"> Contact </a></ul>
+                <ul><a href="home.html">Home</a></ul>
+                <ul><a href="menu.html">Menu</a></ul>
+                <ul><a href="aboutUs.html">About Us</a></ul>
+                <ul><a href="contactUs.html"> Contact </a></ul>
                 </div>
             </nav>
             {% block body %} {% endblock %} 
