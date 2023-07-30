@@ -1,5 +1,33 @@
 {% extends 'layout.html' %}
 
 {% block body%}
-    <h1> In Contact</h1>
+<div class ="text-box">
+    <h1> Contact Us</h1>
+
+    <p>We love to hear about your feed back please fill out the form below.</p>
+    <div class="contactform">
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+       
+        <label for="message">Message:</label><br>
+        <textarea type="text" id="message" name="message" > </textarea>
+
+    </form>
+      
+    </div>
+    </form>
+    <div class="button" style="justify-content: center; margin-left : 40%; margin-top: 20px;"> Submit </div>
+    <div style="margin-top: 20px;">
+    <p>Email: customersupport@cspizza.com </p>
+    <p>Phone: (510) 555 - 2433</p>
+    <p>Address: Somewhere Colorado, CO 95959-2321</p>
+    </div>
+
 {% endblock %}
